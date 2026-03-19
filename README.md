@@ -6,7 +6,7 @@ This repository was created for a spring school workshop and is designed to be p
 
 ## What this tutorial covers
 
-The notebook walks through a simple but powerful workflow:
+The notebook walks through a simple workflow:
 
 - extracting embeddings from audio with pretrained models
 - visualizing embeddings in 2D
@@ -67,7 +67,7 @@ The core idea explored in both the paper and this notebook is:
 The study shows that embeddings learned from large-scale bird vocalization datasets:
 - generalize well across species and even taxa (birds, bats, frogs, marine mammals, etc.)
 - outperform embeddings from general-purpose audio models
-- enable effective few-shot learning with very limited labeled data :contentReference[oaicite:3]{index=3}
+- enable effective few-shot learning with very limited labeled data
 
 In this notebook, we recreate a simplified version of this pipeline in a hands-on way. 
     
