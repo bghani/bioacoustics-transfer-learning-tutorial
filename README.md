@@ -48,9 +48,10 @@ uv pip install jupyter_bokeh
 uv pip install "bacpipe==1.3.0.dev4" "numpy==1.26.4"
 
 ### Launch 
+
 ```bash
 jupyter notebook
-
+```
 
 
 ## Using your own dataset
