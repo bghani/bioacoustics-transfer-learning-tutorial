@@ -31,25 +31,34 @@ This tutorial is aimed at:
 
 ## Requirements
 
-The notebook was developed in Google Colab, but it can also be adapted to run locally.
+The notebook was developed for both Google Colab and for running locally. For running in Google colab follow the instruction directly in the notebook. 
 
-Typical dependencies include:
 
-- Python 3.11+
-- numpy
-- matplotlib
-- scikit-learn
-- torch
-- jupyter
-- bacpipe
+## To run locally:
+
+
+### Setup
+
+```bash
+python3.11 -m uv venv .venv
+source .venv/bin/activate
+python -m ensurepip
+
+uv pip install jupyter_bokeh
+uv pip install "bacpipe==1.3.0.dev4" "numpy==1.26.4"
+
+### Launch 
+```bash
+jupyter notebook
+
 
 
 ## Using your own dataset
 
-The notebook currently assumes that embeddings or audio files live in a folder structure like this:
+The notebook currently assumes that audio files live in a folder structure like this:
 
 ```text
-dataset_root/
+bioacoustics_workshop/datasets/dataset_X/
 ├── class_A/
 └── class_B
 ```
