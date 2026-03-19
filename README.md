@@ -51,8 +51,8 @@ The notebook currently assumes that embeddings or audio files live in a folder s
 ```text
 dataset_root/
 ├── class_A/
-└── class_B/
-
+└── class_B
+```
 ## Reference paper
 
 This workshop is based on the following paper:
